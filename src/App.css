@@ -1,0 +1,68 @@
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    /* background-color: #fafafa; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form {
+    width: 100%;
+    max-width: 820px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+  }
+  
+  .contact-form {
+    position: relative;
+   
+  }
+  /* Make Swiper pagination bullets (dots) transparent */
+.swiper-pagination{
+  background-color: transparent !important; /* Remove default color */
+  opacity: 1.5; /* Make them slightly visible */
+}
+
+/* Style the active pagination bullet */
+.swiper-pagination-bullet-active {
+  background-color: white !important; /* Active dot is fully white */
+  opacity: 1; /* Fully visible */
+}
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: transparent !important; /* Remove background */
+  color: white !important;/* Change icon color if needed */
+font-size: 10px !important;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 24px !important;
+   /* Adjust arrow icon size */
+
+}
+.swiper-button-prev::after{
+  margin-right: 30px;
+}
+.swiper-button-next::after {
+  margin-left: 30px; 
+}
+
+
+* {
+  scrollbar-width: none; /* Hides the scrollbar */
+}  
+ 
+  
+ 
+ 
+  
+ 
