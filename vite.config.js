@@ -1,7 +1,8 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  root: ".",
   build: {
-    outDir: "dist", // Ensure this matches Netlify's publish directory
+    outDir: "dist",
   },
 });
