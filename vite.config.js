@@ -1,8 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+// filepath: /C:/Users/anjee/OneDrive/Desktop/my-portfolio/my-project/vite.config.js
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base:"/MyPortfolio",
-})
+  build: {
+    outDir: "dist",
+  },
+});
