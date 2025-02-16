@@ -7,8 +7,7 @@ export default defineConfig({
   build: {
     outDir: "dist",
     rollupOptions: {
-      input:
-        "/C:/Users/anjee/OneDrive/Desktop/my-portfolio/my-project/index.html",
+      input: "./index.html", // Use a relative path
     },
   },
 });
