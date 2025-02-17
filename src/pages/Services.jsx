@@ -10,7 +10,6 @@ import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import "@fontsource/montserrat";
 import calc1 from "../assets/calc1.jpg";
 import dicitionary from "../assets/dictionary.jpg";
-import portfolio from "../assets/portfolio.jpeg";
 import rps from "../assets/rps.png";
 import todo from "../assets/to-do.png";
 import weathe from "../assets/weathe.jpg";
@@ -87,11 +86,11 @@ const Services = () => {
       link: "/src/Projects/weather/weather.html",
     },
 
-    // {
-    //   src: portfolio,
-    //   text: "A sleek and responsive portfolio built with HTML, CSS, and JavaScript to showcase projects and skills.",
-    //   link: "/src/Projects/pf2/index.html",
-    // },
+    {
+      src: portfolio,
+      text: "A sleek and responsive portfolio built with HTML, CSS, and JavaScript to showcase projects and skills.",
+      link: "/src/Projects/pf2/index.html",
+    },
   ];
 
   return (
