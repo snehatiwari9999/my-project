@@ -87,11 +87,11 @@ const Services = () => {
       link: "/src/Projects/weather/weather.html",
     },
 
-    {
-      src: portfolio,
-      text: "A sleek and responsive portfolio built with HTML, CSS, and JavaScript to showcase projects and skills.",
-      link: "/src/Projects/pf2/index.html",
-    },
+    // {
+    //   src: portfolio,
+    //   text: "A sleek and responsive portfolio built with HTML, CSS, and JavaScript to showcase projects and skills.",
+    //   link: "/src/Projects/pf2/index.html",
+    // },
   ];
 
   return (
